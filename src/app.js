@@ -1,5 +1,5 @@
-/* 
-    Estrutura da aplicação; 
+/*
+    Estrutura da aplicação;
 */
 import express from "express";
 import routes from "./routes";
@@ -23,11 +23,12 @@ class App {
   }
 
   routes() {
-    this.server.use(routes); //Rotas importadas do routes.js.
+    this.server.use(routes); // Rotas importadas do routes.js.
   }
 }
 
 /*
     Exportação do App direto para o server;
 */
+
 export default new App().server;
