@@ -2,6 +2,9 @@
 
 module.exports = {
   up: (queryInterface, Sequelize) => {
+    /**
+     * Definição de campos e colunas da tabela
+     */
     return queryInterface.createTable("users", {
       id: {
         type: Sequelize.INTEGER,
@@ -19,6 +22,7 @@ module.exports = {
         unique: true
       },
       password_hash: {
+        // hash armazena a senha criptografada
         type: Sequelize.STRING,
         allowNull: false
       },
