@@ -1,4 +1,4 @@
-//Importação do 'App' para o servidor;
-import app from "./app";
+// Importação do 'App' para o servidor;
+import app from './app';
 
-app.listen(3000);
+app.listen(4000);

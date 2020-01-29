@@ -1,9 +1,9 @@
 /*
     Estrutura da aplicação;
 */
-import express from "express";
-import routes from "./routes";
-import "./database/index";
+import express from 'express';
+import routes from './routes';
+import './database/index';
 
 /*
     Definição da classe do app;
