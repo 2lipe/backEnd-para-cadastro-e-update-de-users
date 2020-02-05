@@ -1,3 +1,6 @@
+/**
+ * configuração de envio de emails
+ */
 import { resolve } from 'path';
 import nodemailer from 'nodemailer';
 import exphbs from 'express-handlebars';
