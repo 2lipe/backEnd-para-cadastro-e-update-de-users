@@ -1,3 +1,6 @@
+/**
+ * Migration de criação de files
+ */
 module.exports = {
   up: (queryInterface, Sequelize) => {
     return queryInterface.createTable('files', {

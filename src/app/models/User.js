@@ -34,7 +34,7 @@ class User extends Model {
 
   // Adiciona a coluna avatar a tabela de usuários
   static associate(models) {
-    this.belongsTo(models.File, { foreignKey: 'avatar_id' });
+    this.belongsTo(models.File, { foreignKey: 'avatar_id', as: 'avatar' });
   }
 
   // Verificação de senha

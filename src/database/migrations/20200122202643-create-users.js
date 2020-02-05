@@ -1,3 +1,6 @@
+/**
+ * Migration de criação de Users
+ */
 module.exports = {
   up: (queryInterface, Sequelize) => {
     /**
